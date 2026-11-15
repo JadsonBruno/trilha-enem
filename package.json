@@ -1,0 +1,10 @@
+{
+  "name": "trilha-enem",
+  "private": true,
+  "type": "module",
+  "description": "Trilha ENEM: lições curtas estilo Duolingo para o ENEM (um arquivo HTML, GitHub Pages).",
+  "scripts": {
+    "check": "node checks/check-tudo.mjs",
+    "build": "node build.mjs"
+  }
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Trilha ENEM</title>
+<meta name="description" content="Lições curtas de Química, Biologia e Linguagens para o ENEM. Funciona sem internet depois de aberto.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='5' y='12' width='22' height='15' rx='4' fill='%231c7ed6'/%3E%3Crect x='8' y='7' width='6' height='6' rx='2' fill='%231c7ed6'/%3E%3Crect x='18' y='7' width='6' height='6' rx='2' fill='%231c7ed6'/%3E%3Crect x='5' y='24' width='22' height='3' rx='1.5' fill='%23104d8a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@500;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Figtree:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"></noscript>
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body>
+<header class="bar gut">
+ <div class="col">
+  <div class="logo"><i aria-hidden="true"></i>Trilha ENEM</div>
+  <span class="stat fl" id="sStreak"></span>
+  <span class="stat xp" id="sXp" title="XP total"></span>
+  <span id="sGoal" title="Meta diária"></span>
+  <button type="button" class="iconbtn" id="openSettings" aria-label="Perfil e configurações"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></svg></button>
+ </div>
+</header>
+
+<main class="gut"><div class="col">
+ <section class="view" id="v-trilha" aria-label="Trilha"></section>
+ <section class="view" id="v-revisao" aria-label="Revisão"></section>
+ <section class="view" id="v-mapa" aria-label="Mapa"></section>
+ <section class="view" id="v-perfil" aria-label="Perfil"></section>
+</div></main>
+
+<nav class="tabs" aria-label="Seções"><div class="col" id="abas"></div></nav>
+
+<div class="sheet" id="sheet" hidden>
+ <div class="gut"><div class="col stop-bar">
+  <button type="button" class="iconbtn" id="quit" aria-label="Sair da lição"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <div class="prog" role="progressbar" aria-label="Progresso"><i id="progFill"></i></div>
+  <span class="hearts" id="hearts"></span>
+ </div></div>
+ <div class="sbody gut"><div class="col" id="stage" aria-live="polite"></div></div>
+ <div class="foot gut" id="foot"><div class="col" id="footIn"></div></div>
+</div>
+
+<div class="modal" id="modal" hidden><div class="panel" id="modalIn" role="dialog" aria-modal="true"></div></div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+/*__JS__*/
+</script>
+</body>
+</html>
