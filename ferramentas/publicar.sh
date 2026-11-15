@@ -14,5 +14,5 @@ cd "$DST"
 git add -A
 git diff --cached --quiet && { echo "nada mudou"; exit 0; }
 git commit -q -m "$MSG" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
-git push -q
+git push -q -u origin HEAD
 echo "enviado: $(git log -1 --format='%h %s')"
